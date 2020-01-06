@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "Montserrat";
-  font-weight: normal;
-  src: url("../../../../font/mont/Montserrat-Regular.ttf");
-}
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 body {
   top: 0;
@@ -302,7 +297,6 @@ body {
   color: #666666;
   text-align: right;
   width: 100%;
-  font-family: montserrat;
   letter-spacing: 0.08em;
 }
 .reseaux {
