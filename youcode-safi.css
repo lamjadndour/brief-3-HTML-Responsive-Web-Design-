@@ -229,6 +229,7 @@ body {
   display: flex;
   padding: 0 40px 0 40px;
   justify-content: space-between;
+  margin: auto;
 }
 .salle-pic {
   width: 48%;
@@ -282,7 +283,8 @@ body {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: auto;
+    width: 100%;
+    height: auto;
   }
 }
 /* start of Footer */

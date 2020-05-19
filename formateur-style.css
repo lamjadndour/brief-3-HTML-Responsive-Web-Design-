@@ -161,18 +161,19 @@ body {
     margin-bottom: 0;
   }
   #talk h2 {
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 16px;
     margin-bottom: 5px;
   }
   #talk div {
     flex-direction: column;
+    padding-top: 32px;
+    padding-left: 0px;
   }
   #insc {
-    width: max-content;
     text-align: center;
     padding: auto;
-    margin: 30px auto 10px auto;
+    margin: 0px auto 20px auto;
   }
   #dec {
     margin: auto;
@@ -284,6 +285,13 @@ body {
   padding-top: 20px;
 }
 @media (max-width: 1250px) {
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+  #main {
+    border: none;
+  }
   #users {
     flex-direction: column;
     flex-wrap: wrap;
@@ -293,7 +301,7 @@ body {
     width: auto;
   }
   .compet {
-    width: 170px;
+    width: auto;
     height: 30px;
   }
 }
@@ -311,11 +319,7 @@ body {
   width: 100%;
   letter-spacing: 0.08em;
 }
-.reseaux {
-  float: right;
-  display: inline;
-  text-align: start;
-}
+
 .copyright {
   margin-right: -50px;
 }
@@ -337,9 +341,12 @@ body {
   }
   .contact {
     float: none;
+    width: 183px;
+    margin: 0px auto;
   }
   .copyright {
-    padding-left: 50px;
+    width: 141px;
+    margin: 0px auto;
   }
   .last-one {
     flex-direction: column;
@@ -350,5 +357,106 @@ body {
   }
   .inscri-2 {
     margin: auto auto;
+  }
+  .reseaux {
+    margin: 0px auto;
+  }
+}
+@media (min-width: 360px) {
+  #talk h1 {
+    padding-top: 230px;
+  }
+  #talk div {
+    padding-top: 10px;
+  }
+  #insc {
+    margin-bottom: 15px;
+  }
+  .candidats {
+    margin: 0 auto 20px;
+    width: auto;
+    height: auto;
+  }
+  .pic {
+    margin: 1px auto;
+    height: 110px;
+    border-radius: 50%;
+  }
+  .name {
+    margin: 5px auto 0px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .niveau {
+    margin: 10px auto 0px;
+    font-size: 20px;
+  }
+  .user-footer {
+    height: 160px;
+  }
+  .trophé {
+    width: 65%;
+    height: 49px;
+  }
+  .logo-trophé {
+    width: 40px;
+    height: 40px;
+  }
+  .Brief-récent {
+    height: 60px;
+  }
+  .Brief-num {
+    font-size: 24px;
+  }
+  .footer {
+    height: 110px;
+  }
+  .res1 {
+    padding-right: 50px;
+  }
+  .compet {
+    overflow: hidden;
+  }
+}
+@media (min-width: 740px) {
+  tr {
+    flex-direction: row;
+  }
+  .res1 {
+    padding-top: 15px;
+  }
+  .footer {
+    height: 70px;
+  }
+  .copyright {
+    margin: auto;
+  }
+  .support {
+    margin-top: 15px;
+  }
+  .compet {
+    width: auto;
+    font-size: 15px;
+  }
+  .trophé {
+    height: 70px;
+  }
+  .logo-trophé {
+    width: 60px;
+    height: 60px;
+  }
+  .name {
+    font-size: 30px;
+    height: 35px;
+  }
+  .user-footer {
+    height: 170px;
+  }
+  .Brief-num {
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .niveau {
+    margin: 0px auto 5px;
   }
 }
